@@ -1,0 +1,73 @@
+body {
+    background-image: url("../assets/paperBacground.jpg");
+    background-size:cover;
+}
+header .header-title{
+   display: flex;
+   justify-content: center;
+   color: #4a351a;
+   font-family:'Times New Roman', Times, serif;
+}
+.logo{
+   display: flex;
+   justify-content: center;
+}
+.logo img{
+   width: 50px;
+   height: auto;
+   margin-top: -15px;
+   margin-bottom: 10px;
+}
+header nav ul {
+    display: flex;
+    justify-content: center;
+ }
+ header nav ul li{
+ margin: 0 10px;
+ list-style-type: none ;
+ }
+ header nav ul li a{
+    text-decoration: none;
+    color: #4a351a;
+ }
+ article {
+    margin: 0 35px;
+ }
+ .contents .content-1 img{
+    width: auto;
+    height: 350px;
+    border-radius: 20%;
+    margin-right: 20px;
+    
+ }
+ .contents .content-1 {
+    display: flex;
+    align-items: center;
+ }
+ .contents .content-2 img{
+    width: auto;
+    height: 350px;
+    border-radius: 20%;
+    margin-left: 20px;
+ }
+ .contents .content-2 {
+    display: flex;
+    align-items: center;
+ }
+ 
+footer{
+    position: fixed;
+    bottom: 0;
+}
+footer ul{
+    display: flex;
+    justify-items: center;  
+}
+footer ul li {
+    margin: 0 10px;
+    list-style-type: none ;
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgb(18, 38, 38);
+}

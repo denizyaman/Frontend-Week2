@@ -1,0 +1,39 @@
+body header h1{
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+header nav ul li{
+    list-style: none;
+    margin-right: 2%;
+    
+}
+header nav ul{
+    display: flex;
+    justify-content: baseline;
+    justify-content: center;
+}
+header h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(172, 63, 189);
+}
+.icerik{
+    display: flex;
+    justify-content: center;
+}
+.icerik a{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+h3{ 
+    color: rgb(224, 193, 17);
+    display: flex;
+    justify-content: center;
+}
+section article ul{
+    display: grid;
+    justify-content: center;
+    
+    
+}
